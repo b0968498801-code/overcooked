@@ -745,3 +745,13 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.sv"
 // Elapsed time: 41 seconds
 selectCodeEditor("top.sv", 91, 67); // cd (w, cj)
 typeControlKey((HResource) null, "top.sv", 'c'); // cd (w, cj)
+// [GUI Memory]: 142 MB (+800kb) [01:27:48]
+// Elapsed time: 700 seconds
+selectCodeEditor("top.sv", 413, 73); // cd (w, cj)
+// [GUI Memory]: 151 MB (+1755kb) [01:36:05]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cZ, cj)
