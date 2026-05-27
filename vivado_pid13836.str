@@ -755,3 +755,8 @@ selectCodeEditor("top.sv", 413, 73); // cd (w, cj)
 // TclEventType: DG_GRAPH_GENERATED
 // Elapsed time: 19 seconds
 selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cZ, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,946 MB. GUI used memory: 85 MB. Current time: 5/28/26 12:25:32 AM CST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
