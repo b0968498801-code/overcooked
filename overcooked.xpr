@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="35" Path="C:/Users/b0968/Downloads/overcooked/overcooked.xpr">
+<Project Version="7" Minor="35" Path="C:/Users/user/OneDrive/GitHub/overcooked/overcooked.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="a65f6212cfa94ba0ac9ff220b74fe362"/>
@@ -58,6 +58,15 @@
       <File Path="$PSRCDIR/sources_1/imports/files/buzzer.sv">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../files/buzzer.sv"/>
+          <Attr Name="ImportTime" Val="1779366395"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/files/clk_divider.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../files/clk_divider.sv"/>
           <Attr Name="ImportTime" Val="1779366395"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -157,16 +166,6 @@
       <File Path="$PSRCDIR/sources_1/imports/files/top.sv">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../files/top.sv"/>
-          <Attr Name="ImportTime" Val="1779366395"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/files/clk_divider.sv">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../files/clk_divider.sv"/>
           <Attr Name="ImportTime" Val="1779366395"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

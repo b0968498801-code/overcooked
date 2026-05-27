@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779539072">
-  <File Type="PWROPT-DCP" Name="top_pwropt.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779897352">
+  <File Type="OPT-HWDEF" Name="top.hwdef"/>
+  <File Type="PA-DCP" Name="top.dcp"/>
+  <File Type="OPT-DCP" Name="top_opt.dcp"/>
   <File Type="ROUTE-PWR" Name="top_power_routed.rpt"/>
   <File Type="PA-TCL" Name="top.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="top_power_summary_routed.pb"/>
@@ -8,10 +10,9 @@
   <File Type="BG-DRC" Name="top.drc"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="top_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="top_timing_summary_init.rpt"/>
-  <File Type="OPT-HWDEF" Name="top.hwdef"/>
-  <File Type="OPT-DCP" Name="top_opt.dcp"/>
   <File Type="OPT-DRC" Name="top_drc_opted.rpt"/>
   <File Type="OPT-TIMING" Name="top_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="top_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="top_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="top_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="top_placed.dcp"/>
@@ -68,6 +69,15 @@
     <File Path="$PSRCDIR/sources_1/imports/files/buzzer.sv">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../files/buzzer.sv"/>
+        <Attr Name="ImportTime" Val="1779366395"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/files/clk_divider.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../files/clk_divider.sv"/>
         <Attr Name="ImportTime" Val="1779366395"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -167,16 +177,6 @@
     <File Path="$PSRCDIR/sources_1/imports/files/top.sv">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../files/top.sv"/>
-        <Attr Name="ImportTime" Val="1779366395"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/files/clk_divider.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../files/clk_divider.sv"/>
         <Attr Name="ImportTime" Val="1779366395"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>

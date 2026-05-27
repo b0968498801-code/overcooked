@@ -14,12 +14,12 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 15636 
+INFO: Helper process launched with PID 15260 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 360.613 ; gain = 131.043
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 374.328 ; gain = 131.391
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
-INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
 	Parameter H_VISIBLE bound to: 640 - type: integer 
 	Parameter H_FRONT bound to: 16 - type: integer 
 	Parameter H_SYNC bound to: 96 - type: integer 
@@ -30,11 +30,11 @@ INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Users/b0968/Downloa
 	Parameter V_SYNC bound to: 2 - type: integer 
 	Parameter V_BACK bound to: 33 - type: integer 
 	Parameter V_TOTAL bound to: 525 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'vga_controller' (1#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
-INFO: [Synth 8-638] synthesizing module 'ps2_keyboard' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
-WARNING: [Synth 8-6014] Unused sequential element got_e0_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:83]
-INFO: [Synth 8-256] done synthesizing module 'ps2_keyboard' (2#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
-INFO: [Synth 8-638] synthesizing module 'key_state' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (1#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
+INFO: [Synth 8-638] synthesizing module 'ps2_keyboard' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
+WARNING: [Synth 8-6014] Unused sequential element got_e0_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:83]
+INFO: [Synth 8-256] done synthesizing module 'ps2_keyboard' (2#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
+INFO: [Synth 8-638] synthesizing module 'key_state' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
 	Parameter KEY_W bound to: 8'b00011101 
 	Parameter KEY_A bound to: 8'b00011100 
 	Parameter KEY_S bound to: 8'b00011011 
@@ -45,18 +45,18 @@ INFO: [Synth 8-638] synthesizing module 'key_state' [C:/Users/b0968/Downloads/ov
 	Parameter KEY_LEFT bound to: 8'b01101011 
 	Parameter KEY_RIGHT bound to: 8'b01110100 
 	Parameter KEY_ENTER bound to: 8'b01011010 
-INFO: [Synth 8-256] done synthesizing module 'key_state' (3#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:94]
-INFO: [Synth 8-638] synthesizing module 'game_timer' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'key_state' (3#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:94]
+INFO: [Synth 8-638] synthesizing module 'game_timer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
 	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
 	Parameter GAME_SECONDS bound to: 180 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'game_timer' (4#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
-INFO: [Synth 8-638] synthesizing module 'player_controller' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
+INFO: [Synth 8-256] done synthesizing module 'game_timer' (4#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
+INFO: [Synth 8-638] synthesizing module 'player_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
 	Parameter MOVE_DELAY bound to: 27'b000111001001110000111000000 
-WARNING: [Synth 8-5788] Register tile_x_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:82]
-WARNING: [Synth 8-5788] Register tile_y_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:83]
-INFO: [Synth 8-256] done synthesizing module 'player_controller' (5#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
-INFO: [Synth 8-638] synthesizing module 'station_controller' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:10]
+WARNING: [Synth 8-5788] Register tile_x_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:83]
+WARNING: [Synth 8-5788] Register tile_y_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:84]
+INFO: [Synth 8-256] done synthesizing module 'player_controller' (5#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
+INFO: [Synth 8-638] synthesizing module 'station_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:11]
 	Parameter ITEM_NONE bound to: 5'b00000 
 	Parameter ITEM_BEEF_RAW bound to: 5'b00001 
 	Parameter ITEM_LETTUCE_RAW bound to: 5'b00010 
@@ -81,33 +81,40 @@ INFO: [Synth 8-638] synthesizing module 'station_controller' [C:/Users/b0968/Dow
 	Parameter ITEM_PORK_BURNT bound to: 5'b10101 
 	Parameter ITEM_NOODLE_BURNT bound to: 5'b10110 
 	Parameter ITEM_EGG_BURNT bound to: 5'b10111 
+	Parameter ITEM_PLATE bound to: 5'b11000 
 	Parameter DISH_NONE bound to: 2'b00 
 	Parameter DISH_BURGER bound to: 2'b01 
 	Parameter DISH_NOODLE bound to: 2'b10 
 	Parameter DISH_RICE_BOWL bound to: 2'b11 
 	Parameter SLOT_NONE bound to: 2'b11 
 	Parameter BURN_AFTER_SECONDS bound to: 4'b1010 
-WARNING: [Synth 8-6014] Unused sequential element output_filled_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:365]
-WARNING: [Synth 8-6014] Unused sequential element made_dish_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:413]
-WARNING: [Synth 8-6014] Unused sequential element took_a_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:414]
-WARNING: [Synth 8-6014] Unused sequential element took_b_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:415]
-WARNING: [Synth 8-6014] Unused sequential element took_c_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:416]
-WARNING: [Synth 8-6014] Unused sequential element acted_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:480]
-WARNING: [Synth 8-6014] Unused sequential element held_dish_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:487]
-WARNING: [Synth 8-6014] Unused sequential element placed_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:503]
-WARNING: [Synth 8-6014] Unused sequential element near_item_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:537]
-INFO: [Synth 8-256] done synthesizing module 'station_controller' (6#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:10]
-INFO: [Synth 8-638] synthesizing module 'order_manager' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
+	Parameter BELT_STEP_DELAY bound to: 22'b1001100010010110100000 
+WARNING: [Synth 8-6014] Unused sequential element matched_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:407]
+WARNING: [Synth 8-6014] Unused sequential element best_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:408]
+WARNING: [Synth 8-6014] Unused sequential element best_slot_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:409]
+WARNING: [Synth 8-6014] Unused sequential element output_filled_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:446]
+WARNING: [Synth 8-6014] Unused sequential element made_dish_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:494]
+WARNING: [Synth 8-6014] Unused sequential element took_a_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:495]
+WARNING: [Synth 8-6014] Unused sequential element took_b_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:496]
+WARNING: [Synth 8-6014] Unused sequential element took_c_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:497]
+WARNING: [Synth 8-6014] Unused sequential element took_d_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:498]
+WARNING: [Synth 8-6014] Unused sequential element acted_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:571]
+WARNING: [Synth 8-6014] Unused sequential element held_dish_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:578]
+WARNING: [Synth 8-6014] Unused sequential element placed_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:592]
+WARNING: [Synth 8-6014] Unused sequential element near_item_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:626]
+INFO: [Synth 8-256] done synthesizing module 'station_controller' (6#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:11]
+INFO: [Synth 8-638] synthesizing module 'order_manager' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
 	Parameter SPAWN_INTERVAL bound to: 4'b1000 
-INFO: [Synth 8-256] done synthesizing module 'order_manager' (7#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
-INFO: [Synth 8-638] synthesizing module 'score_manager' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
+INFO: [Synth 8-256] done synthesizing module 'order_manager' (7#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
+INFO: [Synth 8-638] synthesizing module 'score_manager' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
 	Parameter SCORE_SERVE bound to: 8'b00001010 
-INFO: [Synth 8-256] done synthesizing module 'score_manager' (8#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
-INFO: [Synth 8-638] synthesizing module 'seven_seg' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
-INFO: [Synth 8-256] done synthesizing module 'seven_seg' (9#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
-INFO: [Synth 8-638] synthesizing module 'buzzer' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
-INFO: [Synth 8-256] done synthesizing module 'buzzer' (10#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
-INFO: [Synth 8-638] synthesizing module 'renderer' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'score_manager' (8#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
+INFO: [Synth 8-638] synthesizing module 'seven_seg' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'seven_seg' (9#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
+INFO: [Synth 8-638] synthesizing module 'buzzer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
+INFO: [Synth 8-256] done synthesizing module 'buzzer' (10#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:307]
+INFO: [Synth 8-638] synthesizing module 'renderer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
 	Parameter ITEM_NONE bound to: 5'b00000 
 	Parameter ITEM_BEEF_RAW bound to: 5'b00001 
 	Parameter ITEM_LETTUCE_RAW bound to: 5'b00010 
@@ -171,32 +178,249 @@ INFO: [Synth 8-638] synthesizing module 'renderer' [C:/Users/b0968/Downloads/ove
 	Parameter FOOD_SPR_PORK_CHOP bound to: 5'b01111 
 	Parameter FOOD_SPR_PORK_BOWL bound to: 5'b10000 
 	Parameter FOOD_SPR_SMOKE_FIRE bound to: 5'b10001 
-INFO: [Synth 8-226] default block is never used [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:170]
-INFO: [Synth 8-638] synthesizing module 'player_sprite_rom' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:563]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:564]
-INFO: [Synth 8-256] done synthesizing module 'player_sprite_rom' (11#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
-INFO: [Synth 8-638] synthesizing module 'food_sprite_rom' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8777]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8778]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8779]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8780]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8781]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8782]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8783]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8784]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8785]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8786]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8787]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8788]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8789]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8790]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8791]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8792]
-INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8793]
-INFO: [Synth 8-256] done synthesizing module 'food_sprite_rom' (12#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
-INFO: [Synth 8-256] done synthesizing module 'renderer' (13#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
-INFO: [Synth 8-256] done synthesizing module 'top' (14#1) [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
+INFO: [Synth 8-226] default block is never used [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:170]
+INFO: [Synth 8-638] synthesizing module 'player_sprite_rom' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:563]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:564]
+INFO: [Synth 8-256] done synthesizing module 'player_sprite_rom' (11#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
+INFO: [Synth 8-638] synthesizing module 'food_sprite_rom' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8777]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8778]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8779]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8780]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8781]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8782]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8783]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8784]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8785]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8786]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8787]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8788]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8789]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8790]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8791]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8792]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8793]
+INFO: [Synth 8-256] done synthesizing module 'food_sprite_rom' (12#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
+INFO: [Synth 8-256] done synthesizing module 'renderer' (13#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
+ERROR: [Synth 8-349] instance 'u_render' of module 'renderer' passed 29 connections, but takes just 25 [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:307]
+ERROR: [Synth 8-285] failed synthesizing module 'top' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 542.664 ; gain = 299.727
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 17 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed May 27 23:19:44 2026...
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19600 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 374.719 ; gain = 131.016
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
+	Parameter H_VISIBLE bound to: 640 - type: integer 
+	Parameter H_FRONT bound to: 16 - type: integer 
+	Parameter H_SYNC bound to: 96 - type: integer 
+	Parameter H_BACK bound to: 48 - type: integer 
+	Parameter H_TOTAL bound to: 800 - type: integer 
+	Parameter V_VISIBLE bound to: 480 - type: integer 
+	Parameter V_FRONT bound to: 10 - type: integer 
+	Parameter V_SYNC bound to: 2 - type: integer 
+	Parameter V_BACK bound to: 33 - type: integer 
+	Parameter V_TOTAL bound to: 525 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (1#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
+INFO: [Synth 8-638] synthesizing module 'ps2_keyboard' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
+WARNING: [Synth 8-6014] Unused sequential element got_e0_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:83]
+INFO: [Synth 8-256] done synthesizing module 'ps2_keyboard' (2#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
+INFO: [Synth 8-638] synthesizing module 'key_state' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
+	Parameter KEY_W bound to: 8'b00011101 
+	Parameter KEY_A bound to: 8'b00011100 
+	Parameter KEY_S bound to: 8'b00011011 
+	Parameter KEY_D bound to: 8'b00100011 
+	Parameter KEY_F bound to: 8'b00101011 
+	Parameter KEY_UP bound to: 8'b01110101 
+	Parameter KEY_DOWN bound to: 8'b01110010 
+	Parameter KEY_LEFT bound to: 8'b01101011 
+	Parameter KEY_RIGHT bound to: 8'b01110100 
+	Parameter KEY_ENTER bound to: 8'b01011010 
+INFO: [Synth 8-256] done synthesizing module 'key_state' (3#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:94]
+INFO: [Synth 8-638] synthesizing module 'game_timer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+	Parameter GAME_SECONDS bound to: 180 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'game_timer' (4#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
+INFO: [Synth 8-638] synthesizing module 'player_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
+	Parameter MOVE_DELAY bound to: 27'b000111001001110000111000000 
+WARNING: [Synth 8-5788] Register tile_x_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:83]
+WARNING: [Synth 8-5788] Register tile_y_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:84]
+INFO: [Synth 8-256] done synthesizing module 'player_controller' (5#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
+INFO: [Synth 8-638] synthesizing module 'station_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:11]
+	Parameter ITEM_NONE bound to: 5'b00000 
+	Parameter ITEM_BEEF_RAW bound to: 5'b00001 
+	Parameter ITEM_LETTUCE_RAW bound to: 5'b00010 
+	Parameter ITEM_BREAD bound to: 5'b00011 
+	Parameter ITEM_NOODLE_RAW bound to: 5'b00100 
+	Parameter ITEM_EGG_RAW bound to: 5'b00101 
+	Parameter ITEM_RICE_RAW bound to: 5'b00110 
+	Parameter ITEM_PORK_RAW bound to: 5'b00111 
+	Parameter ITEM_BEEF_COOKED bound to: 5'b01000 
+	Parameter ITEM_LETTUCE_CHOPPED bound to: 5'b01001 
+	Parameter ITEM_NOODLE_COOKED bound to: 5'b01010 
+	Parameter ITEM_EGG_COOKED bound to: 5'b01011 
+	Parameter ITEM_RICE_COOKED bound to: 5'b01100 
+	Parameter ITEM_PORK_COOKED bound to: 5'b01101 
+	Parameter ITEM_DISH_BURGER bound to: 5'b01110 
+	Parameter ITEM_DISH_NOODLE bound to: 5'b01111 
+	Parameter ITEM_DISH_RICE_BOWL bound to: 5'b10000 
+	Parameter ITEM_BEEF_CHOPPED bound to: 5'b10001 
+	Parameter ITEM_PORK_CHOPPED bound to: 5'b10010 
+	Parameter ITEM_BURNT bound to: 5'b10011 
+	Parameter ITEM_BEEF_BURNT bound to: 5'b10100 
+	Parameter ITEM_PORK_BURNT bound to: 5'b10101 
+	Parameter ITEM_NOODLE_BURNT bound to: 5'b10110 
+	Parameter ITEM_EGG_BURNT bound to: 5'b10111 
+	Parameter ITEM_PLATE bound to: 5'b11000 
+	Parameter DISH_NONE bound to: 2'b00 
+	Parameter DISH_BURGER bound to: 2'b01 
+	Parameter DISH_NOODLE bound to: 2'b10 
+	Parameter DISH_RICE_BOWL bound to: 2'b11 
+	Parameter SLOT_NONE bound to: 2'b11 
+	Parameter BURN_AFTER_SECONDS bound to: 4'b1010 
+	Parameter BELT_STEP_DELAY bound to: 22'b1001100010010110100000 
+WARNING: [Synth 8-6014] Unused sequential element matched_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:407]
+WARNING: [Synth 8-6014] Unused sequential element best_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:408]
+WARNING: [Synth 8-6014] Unused sequential element best_slot_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:409]
+WARNING: [Synth 8-6014] Unused sequential element output_filled_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:446]
+WARNING: [Synth 8-6014] Unused sequential element made_dish_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:494]
+WARNING: [Synth 8-6014] Unused sequential element took_a_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:495]
+WARNING: [Synth 8-6014] Unused sequential element took_b_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:496]
+WARNING: [Synth 8-6014] Unused sequential element took_c_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:497]
+WARNING: [Synth 8-6014] Unused sequential element took_d_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:498]
+WARNING: [Synth 8-6014] Unused sequential element acted_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:571]
+WARNING: [Synth 8-6014] Unused sequential element held_dish_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:578]
+WARNING: [Synth 8-6014] Unused sequential element placed_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:592]
+WARNING: [Synth 8-6014] Unused sequential element near_item_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:626]
+INFO: [Synth 8-256] done synthesizing module 'station_controller' (6#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:11]
+INFO: [Synth 8-638] synthesizing module 'order_manager' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
+	Parameter SPAWN_INTERVAL bound to: 4'b1000 
+INFO: [Synth 8-256] done synthesizing module 'order_manager' (7#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
+INFO: [Synth 8-638] synthesizing module 'score_manager' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
+	Parameter SCORE_SERVE bound to: 8'b00001010 
+INFO: [Synth 8-256] done synthesizing module 'score_manager' (8#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
+INFO: [Synth 8-638] synthesizing module 'seven_seg' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'seven_seg' (9#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
+INFO: [Synth 8-638] synthesizing module 'buzzer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
+INFO: [Synth 8-256] done synthesizing module 'buzzer' (10#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
+INFO: [Synth 8-638] synthesizing module 'clk_divider' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/clk_divider.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_divider' (11#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/clk_divider.sv:5]
+INFO: [Synth 8-638] synthesizing module 'renderer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
+	Parameter ITEM_NONE bound to: 5'b00000 
+	Parameter ITEM_BEEF_RAW bound to: 5'b00001 
+	Parameter ITEM_LETTUCE_RAW bound to: 5'b00010 
+	Parameter ITEM_BREAD bound to: 5'b00011 
+	Parameter ITEM_NOODLE_RAW bound to: 5'b00100 
+	Parameter ITEM_EGG_RAW bound to: 5'b00101 
+	Parameter ITEM_RICE_RAW bound to: 5'b00110 
+	Parameter ITEM_PORK_RAW bound to: 5'b00111 
+	Parameter ITEM_BEEF_COOKED bound to: 5'b01000 
+	Parameter ITEM_LETTUCE_CHOPPED bound to: 5'b01001 
+	Parameter ITEM_NOODLE_COOKED bound to: 5'b01010 
+	Parameter ITEM_EGG_COOKED bound to: 5'b01011 
+	Parameter ITEM_RICE_COOKED bound to: 5'b01100 
+	Parameter ITEM_PORK_COOKED bound to: 5'b01101 
+	Parameter ITEM_DISH_BURGER bound to: 5'b01110 
+	Parameter ITEM_DISH_NOODLE bound to: 5'b01111 
+	Parameter ITEM_DISH_RICE_BOWL bound to: 5'b10000 
+	Parameter ITEM_BEEF_CHOPPED bound to: 5'b10001 
+	Parameter ITEM_PORK_CHOPPED bound to: 5'b10010 
+	Parameter ITEM_BURNT bound to: 5'b10011 
+	Parameter ITEM_BEEF_BURNT bound to: 5'b10100 
+	Parameter ITEM_PORK_BURNT bound to: 5'b10101 
+	Parameter ITEM_NOODLE_BURNT bound to: 5'b10110 
+	Parameter ITEM_EGG_BURNT bound to: 5'b10111 
+	Parameter DISH_NONE bound to: 2'b00 
+	Parameter DISH_BURGER bound to: 2'b01 
+	Parameter DISH_NOODLE bound to: 2'b10 
+	Parameter DISH_RICE_BOWL bound to: 2'b11 
+	Parameter T_FLOOR bound to: 4'b0000 
+	Parameter T_WALL bound to: 4'b0001 
+	Parameter T_SRC_BEEF bound to: 4'b0010 
+	Parameter T_SRC_LETTUCE bound to: 4'b0011 
+	Parameter T_SRC_BREAD bound to: 4'b0100 
+	Parameter T_SRC_NOODLE bound to: 4'b0101 
+	Parameter T_SRC_EGG bound to: 4'b0110 
+	Parameter T_SRC_RICE bound to: 4'b0111 
+	Parameter T_SRC_PORK bound to: 4'b1000 
+	Parameter T_CHOP bound to: 4'b1001 
+	Parameter T_COOK bound to: 4'b1010 
+	Parameter T_ASM_IN bound to: 4'b1011 
+	Parameter T_ASM_STORE bound to: 4'b1100 
+	Parameter T_ASM_OUT bound to: 4'b1101 
+	Parameter T_TRASH bound to: 4'b1110 
+	Parameter T_ORDER bound to: 4'b1111 
+	Parameter SPRITE_TRANSPARENT bound to: 12'b111100001111 
+	Parameter FOOD_SPR_NONE bound to: 5'b00000 
+	Parameter FOOD_SPR_COW bound to: 5'b00001 
+	Parameter FOOD_SPR_BROCCOLI bound to: 5'b00010 
+	Parameter FOOD_SPR_BREAD bound to: 5'b00011 
+	Parameter FOOD_SPR_BEEF bound to: 5'b00100 
+	Parameter FOOD_SPR_PATTY bound to: 5'b00101 
+	Parameter FOOD_SPR_HAMBURGER bound to: 5'b00110 
+	Parameter FOOD_SPR_NOODLE bound to: 5'b00111 
+	Parameter FOOD_SPR_EGG bound to: 5'b01000 
+	Parameter FOOD_SPR_COOKED_NOODLE bound to: 5'b01001 
+	Parameter FOOD_SPR_FRIED_EGG bound to: 5'b01010 
+	Parameter FOOD_SPR_NOODLE_EGG_BOWL bound to: 5'b01011 
+	Parameter FOOD_SPR_RICE_BOWL bound to: 5'b01100 
+	Parameter FOOD_SPR_PIG bound to: 5'b01101 
+	Parameter FOOD_SPR_PORK_BLOCK bound to: 5'b01110 
+	Parameter FOOD_SPR_PORK_CHOP bound to: 5'b01111 
+	Parameter FOOD_SPR_PORK_BOWL bound to: 5'b10000 
+	Parameter FOOD_SPR_SMOKE_FIRE bound to: 5'b10001 
+INFO: [Synth 8-226] default block is never used [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:170]
+INFO: [Synth 8-638] synthesizing module 'player_sprite_rom' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:563]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:564]
+INFO: [Synth 8-256] done synthesizing module 'player_sprite_rom' (12#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
+INFO: [Synth 8-638] synthesizing module 'food_sprite_rom' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8777]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8778]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8779]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8780]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8781]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8782]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8783]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8784]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8785]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8786]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8787]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8788]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8789]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8790]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8791]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8792]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8793]
+INFO: [Synth 8-256] done synthesizing module 'food_sprite_rom' (13#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
+INFO: [Synth 8-256] done synthesizing module 'renderer' (14#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'top' (15#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
 WARNING: [Synth 8-3331] design renderer has unconnected port clk_25m
 WARNING: [Synth 8-3331] design renderer has unconnected port rst
 WARNING: [Synth 8-3331] design renderer has unconnected port game_active
@@ -220,7 +444,7 @@ WARNING: [Synth 8-3331] design order_manager has unconnected port difficulty[1]
 WARNING: [Synth 8-3331] design order_manager has unconnected port difficulty[0]
 WARNING: [Synth 8-3331] design player_controller has unconnected port tick_1hz
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 522.078 ; gain = 292.508
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 543.508 ; gain = 299.805
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -230,43 +454,43 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 522.078 ; gain = 292.508
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 543.508 ; gain = 299.805
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
-Finished Parsing XDC File [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Parsing XDC File [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
+Finished Parsing XDC File [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 806.969 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 823.945 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 806.969 ; gain = 577.398
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 823.945 ; gain = 580.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 806.969 ; gain = 577.398
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 823.945 ; gain = 580.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 806.969 ; gain = 577.398
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 823.945 ; gain = 580.242
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "bit_cnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "receiving" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "got_f0" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-6014] Unused sequential element bit_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:42]
+WARNING: [Synth 8-6014] Unused sequential element bit_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:42]
 INFO: [Synth 8-5546] ROM "p1_up" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "p1_down" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "p1_left" won't be mapped to RAM because it is too sparse
@@ -278,14 +502,20 @@ INFO: [Synth 8-5546] ROM "p2_left" won't be mapped to RAM because it is too spar
 INFO: [Synth 8-5546] ROM "p2_right" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "p2_interact" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "tick_1hz" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:84]
-INFO: [Synth 8-4471] merging register 'snd_serve_reg' into 'serve_event_reg' [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:356]
-WARNING: [Synth 8-6014] Unused sequential element snd_serve_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:356]
+WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:85]
+INFO: [Synth 8-4471] merging register 'snd_serve_reg' into 'serve_event_reg' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:393]
+WARNING: [Synth 8-6014] Unused sequential element snd_serve_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:393]
+INFO: [Synth 8-5544] ROM "belt_active" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "belt_segment" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "item_to_dish" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "item_to_dish0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "has_beef" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "has_lettuce" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "has_bread" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_plate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_noodle" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_egg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_pork" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cook_result" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "burn_result" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cook_result0" won't be mapped to RAM because it is too sparse
@@ -293,11 +523,10 @@ INFO: [Synth 8-5546] ROM "burn_result0" won't be mapped to RAM because it is too
 INFO: [Synth 8-5546] ROM "cook_result1" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "burn_result1" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "made_dish" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5546] ROM "took_a" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "took_b" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "took_b" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "placed" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "placed" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "belt_active" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "belt_segment" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "item_to_dish" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "item_to_dish0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "cook_result" won't be mapped to RAM because it is too sparse
@@ -307,24 +536,21 @@ INFO: [Synth 8-5546] ROM "burn_result0" won't be mapped to RAM because it is too
 INFO: [Synth 8-5546] ROM "cook_result1" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "burn_result1" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "made_dish" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-5546] ROM "took_a" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "took_b" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "took_b" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "placed" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "placed" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5544] ROM "served_slot" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "placed" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "placed" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "best_slot" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "dish_to_item" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "dish_to_item0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "dish_to_item1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "dish_to_item2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "dish_to_item3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "dish_to_item4" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
-INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
-WARNING: [Synth 8-6014] Unused sequential element spawn_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:64]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
+WARNING: [Synth 8-6014] Unused sequential element spawn_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:64]
 INFO: [Synth 8-5544] ROM "rand_dish" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
-WARNING: [Synth 8-6014] Unused sequential element refresh_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:19]
+WARNING: [Synth 8-6014] Unused sequential element refresh_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:19]
 INFO: [Synth 8-802] inferred FSM for state register 'effect_reg' in module 'buzzer'
 INFO: [Synth 8-5546] ROM "ms_tick" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "note_duration" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
@@ -389,7 +615,7 @@ INFO: [Synth 8-5544] ROM "food_sprite_for_dish0" won't be mapped to Block RAM be
 INFO: [Synth 8-5544] ROM "dish_color2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "dish_color9" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "difficulty" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
-WARNING: [Synth 8-6014] Unused sequential element led_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:262]
+WARNING: [Synth 8-6014] Unused sequential element led_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:264]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -403,7 +629,7 @@ WARNING: [Synth 8-6014] Unused sequential element led_cnt_reg was removed.  [C:/
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'effect_reg' using encoding 'one-hot' in module 'buzzer'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 806.969 ; gain = 577.398
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 823.945 ; gain = 580.242
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -412,7 +638,7 @@ Report RTL Partitions:
 +------+----------------+------------+----------+
 |1     |food_sprite_rom |           2|     26152|
 |2     |renderer__GC0   |           1|      5409|
-|3     |top__GC0        |           1|     11865|
+|3     |top__GC0        |           1|     12345|
 +------+----------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -421,36 +647,39 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input     32 Bit       Adders := 4     
 	   2 Input     27 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
 	   2 Input     17 Bit       Adders := 1     
 	   2 Input     16 Bit       Adders := 1     
 	   2 Input     10 Bit       Adders := 3     
 	   2 Input      8 Bit       Adders := 2     
 	   3 Input      8 Bit       Adders := 1     
-	   2 Input      6 Bit       Adders := 50    
-	   2 Input      5 Bit       Adders := 34    
+	   2 Input      6 Bit       Adders := 48    
+	   2 Input      5 Bit       Adders := 35    
 	   2 Input      4 Bit       Adders := 30    
-	   2 Input      3 Bit       Adders := 7     
+	   2 Input      3 Bit       Adders := 5     
 	   3 Input      3 Bit       Adders := 1     
-	   2 Input      2 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
 	   3 Input      2 Bit       Adders := 1     
 +---XORs : 
 	   2 Input      1 Bit         XORs := 1     
 +---Registers : 
 	               32 Bit    Registers := 1     
 	               27 Bit    Registers := 1     
+	               22 Bit    Registers := 1     
 	               17 Bit    Registers := 1     
 	               16 Bit    Registers := 1     
 	               10 Bit    Registers := 2     
 	                8 Bit    Registers := 5     
 	                7 Bit    Registers := 1     
-	                5 Bit    Registers := 23    
+	                5 Bit    Registers := 25    
 	                4 Bit    Registers := 10    
 	                3 Bit    Registers := 3     
-	                2 Bit    Registers := 13    
-	                1 Bit    Registers := 40    
+	                2 Bit    Registers := 15    
+	                1 Bit    Registers := 43    
 +---Muxes : 
 	   2 Input     32 Bit        Muxes := 2     
 	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 5     
 	   2 Input     18 Bit        Muxes := 2     
 	   6 Input     18 Bit        Muxes := 1     
 	   2 Input     17 Bit        Muxes := 5     
@@ -466,13 +695,13 @@ Detailed RTL Component Info :
 	   6 Input      9 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 13    
 	   2 Input      7 Bit        Muxes := 2     
-	   2 Input      6 Bit        Muxes := 51    
+	   2 Input      6 Bit        Muxes := 49    
 	   6 Input      6 Bit        Muxes := 1     
-	   2 Input      5 Bit        Muxes := 213   
+	   2 Input      5 Bit        Muxes := 232   
 	   3 Input      5 Bit        Muxes := 2     
 	   4 Input      5 Bit        Muxes := 12    
 	   5 Input      5 Bit        Muxes := 4     
-	   9 Input      5 Bit        Muxes := 1     
+	   9 Input      5 Bit        Muxes := 3     
 	   6 Input      5 Bit        Muxes := 3     
 	  13 Input      4 Bit        Muxes := 9     
 	  20 Input      4 Bit        Muxes := 1     
@@ -482,18 +711,19 @@ Detailed RTL Component Info :
 	   4 Input      4 Bit        Muxes := 3     
 	  13 Input      3 Bit        Muxes := 3     
 	   2 Input      3 Bit        Muxes := 15    
-	   2 Input      2 Bit        Muxes := 79    
-	   4 Input      2 Bit        Muxes := 10    
-	   6 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 87    
+	   4 Input      2 Bit        Muxes := 7     
+	   9 Input      2 Bit        Muxes := 1     
 	   3 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
 	  13 Input      1 Bit        Muxes := 2     
 	   3 Input      1 Bit        Muxes := 4     
-	   2 Input      1 Bit        Muxes := 699   
-	  11 Input      1 Bit        Muxes := 13    
+	   2 Input      1 Bit        Muxes := 747   
+	  11 Input      1 Bit        Muxes := 17    
 	   5 Input      1 Bit        Muxes := 3     
-	   4 Input      1 Bit        Muxes := 10    
 	   6 Input      1 Bit        Muxes := 1     
-	  10 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 8     
+	  10 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -614,33 +844,38 @@ Detailed RTL Component Info :
 Module station_controller 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      6 Bit       Adders := 50    
-	   2 Input      5 Bit       Adders := 24    
+	   2 Input     22 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 48    
+	   2 Input      5 Bit       Adders := 25    
 	   2 Input      4 Bit       Adders := 24    
-	   2 Input      3 Bit       Adders := 6     
+	   2 Input      3 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 1     
 +---Registers : 
-	                5 Bit    Registers := 18    
+	               22 Bit    Registers := 1     
+	                5 Bit    Registers := 20    
 	                4 Bit    Registers := 6     
 	                3 Bit    Registers := 2     
-	                2 Bit    Registers := 8     
-	                1 Bit    Registers := 14    
+	                2 Bit    Registers := 10    
+	                1 Bit    Registers := 15    
 +---Muxes : 
-	   2 Input      6 Bit        Muxes := 50    
-	   2 Input      5 Bit        Muxes := 174   
+	   2 Input     22 Bit        Muxes := 5     
+	   2 Input      6 Bit        Muxes := 48    
+	   2 Input      5 Bit        Muxes := 193   
 	   4 Input      5 Bit        Muxes := 10    
 	   5 Input      5 Bit        Muxes := 3     
 	   6 Input      5 Bit        Muxes := 3     
+	   9 Input      5 Bit        Muxes := 2     
 	   2 Input      4 Bit        Muxes := 51    
 	   2 Input      3 Bit        Muxes := 12    
-	   4 Input      2 Bit        Muxes := 5     
-	   2 Input      2 Bit        Muxes := 53    
-	   6 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 610   
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 61    
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 658   
 	   5 Input      1 Bit        Muxes := 3     
-	   4 Input      1 Bit        Muxes := 7     
-	  11 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 7     
 	   6 Input      1 Bit        Muxes := 1     
-	  10 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 1     
 Module order_manager 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -706,6 +941,10 @@ Detailed RTL Component Info :
 	   2 Input      3 Bit        Muxes := 3     
 	   6 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 12    
+Module clk_divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -742,7 +981,7 @@ INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for R
 INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
 INFO: [Synth 8-5544] ROM "pixel_color0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "got_f0" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-6014] Unused sequential element bit_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:42]
+WARNING: [Synth 8-6014] Unused sequential element bit_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:42]
 INFO: [Synth 8-5546] ROM "p1_up" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "p1_down" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "p1_left" won't be mapped to RAM because it is too sparse
@@ -754,35 +993,20 @@ INFO: [Synth 8-5546] ROM "p2_left" won't be mapped to RAM because it is too spar
 INFO: [Synth 8-5546] ROM "p2_right" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "p2_interact" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "tick_1hz" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
-WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:84]
-WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:84]
-WARNING: [Synth 8-6014] Unused sequential element spawn_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:64]
-WARNING: [Synth 8-6014] Unused sequential element refresh_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:19]
+WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:85]
+WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:85]
+WARNING: [Synth 8-6014] Unused sequential element spawn_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:64]
+WARNING: [Synth 8-6014] Unused sequential element refresh_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:19]
 INFO: [Synth 8-5546] ROM "ms_tick" won't be mapped to RAM because it is too sparse
-WARNING: [Synth 8-6014] Unused sequential element led_cnt_reg was removed.  [C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:262]
+WARNING: [Synth 8-6014] Unused sequential element led_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:264]
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[4]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[3]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[2]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[1]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[0]) is unused and will be removed from module station_controller.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/i_24/\u_orders/spawn_cnt_reg[3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[9][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[8][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[7][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[6][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[5][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[4][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[3][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[2][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[1][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/u_stations/\assembly_items_reg[0][4] )
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[1][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[2][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[3][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[4][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[5][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[6][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[7][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[8][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[9][4]) is unused and will be removed from module station_controller.
-WARNING: [Synth 8-3332] Sequential element (assembly_items_reg[0][4]) is unused and will be removed from module station_controller.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:18 ; elapsed = 00:02:22 . Memory (MB): peak = 1893.035 ; gain = 1663.465
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:39 ; elapsed = 00:03:45 . Memory (MB): peak = 1528.250 ; gain = 1284.547
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -858,20 +1082,20 @@ Report RTL Partitions:
 +------+-------------------+------------+----------+
 |1     |food_sprite_rom    |           1|      8524|
 |2     |renderer__GC0      |           1|      2864|
-|3     |top__GC0           |           1|      4605|
+|3     |top__GC0           |           1|      5015|
 |4     |food_sprite_rom__1 |           1|      1577|
 +------+-------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:23 ; elapsed = 00:02:27 . Memory (MB): peak = 1979.094 ; gain = 1749.523
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:50 ; elapsed = 00:03:57 . Memory (MB): peak = 1619.000 ; gain = 1375.297
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:24 ; elapsed = 00:02:28 . Memory (MB): peak = 2005.918 ; gain = 1776.348
+Finished Timing Optimization : Time (s): cpu = 00:03:52 ; elapsed = 00:03:59 . Memory (MB): peak = 1646.273 ; gain = 1402.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -879,15 +1103,15 @@ Report RTL Partitions:
 |      |RTL Partition      |Replication |Instances |
 +------+-------------------+------------+----------+
 |1     |food_sprite_rom    |           1|      8524|
-|2     |renderer__GC0      |           1|      2827|
-|3     |top__GC0           |           1|      4611|
+|2     |renderer__GC0      |           1|      2862|
+|3     |top__GC0           |           1|      5021|
 |4     |food_sprite_rom__1 |           1|      1577|
 +------+-------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:30 ; elapsed = 00:02:34 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished Technology Mapping : Time (s): cpu = 00:04:06 ; elapsed = 00:04:13 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -911,7 +1135,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished IO Insertion : Time (s): cpu = 00:04:07 ; elapsed = 00:04:15 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -924,7 +1148,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:07 ; elapsed = 00:04:15 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -936,25 +1160,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:09 ; elapsed = 00:04:16 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:09 ; elapsed = 00:04:17 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:09 ; elapsed = 00:04:17 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:09 ; elapsed = 00:04:17 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -971,16 +1195,16 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |    73|
+|2     |CARRY4 |    79|
 |3     |LUT1   |    17|
-|4     |LUT2   |   263|
-|5     |LUT3   |   180|
-|6     |LUT4   |   481|
-|7     |LUT5   |  4804|
-|8     |LUT6   |  1948|
-|9     |MUXF7  |  1659|
-|10    |MUXF8  |   427|
-|11    |FDCE   |   457|
+|4     |LUT2   |   268|
+|5     |LUT3   |   232|
+|6     |LUT4   |   475|
+|7     |LUT5   |  4792|
+|8     |LUT6   |  2035|
+|9     |MUXF7  |  1649|
+|10    |MUXF8  |   428|
+|11    |FDCE   |   499|
 |12    |FDPE   |    23|
 |13    |IBUF   |     8|
 |14    |OBUF   |    42|
@@ -990,30 +1214,30 @@ Report Instance Areas:
 +------+-------------------+--------------------+------+
 |      |Instance           |Module              |Cells |
 +------+-------------------+--------------------+------+
-|1     |top                |                    | 10383|
-|2     |  u_7seg           |seven_seg           |    29|
+|1     |top                |                    | 10548|
+|2     |  u_7seg           |seven_seg           |    30|
 |3     |  u_buzzer         |buzzer              |   331|
 |4     |  u_keys           |key_state           |    15|
-|5     |  u_orders         |order_manager       |   115|
-|6     |  u_p1             |player_controller   |   219|
-|7     |  u_p2             |player_controller_0 |   223|
+|5     |  u_orders         |order_manager       |   119|
+|6     |  u_p1             |player_controller   |   205|
+|7     |  u_p2             |player_controller_0 |   221|
 |8     |  u_ps2            |ps2_keyboard        |    88|
-|9     |  u_render         |renderer            |   463|
+|9     |  u_render         |renderer            |   457|
 |10    |    u_food_overlay |food_sprite_rom     |     5|
-|11    |    u_food_sprites |food_sprite_rom_1   |   458|
+|11    |    u_food_sprites |food_sprite_rom_1   |   452|
 |12    |  u_score          |score_manager       |    77|
-|13    |  u_stations       |station_controller  |   762|
-|14    |  u_timer          |game_timer          |   131|
-|15    |  u_vga            |vga_controller      |  7841|
+|13    |  u_stations       |station_controller  |   953|
+|14    |  u_timer          |game_timer          |   129|
+|15    |  u_vga            |vga_controller      |  7834|
 +------+-------------------+--------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:09 ; elapsed = 00:04:17 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:22 ; elapsed = 00:02:31 . Memory (MB): peak = 2033.258 ; gain = 1518.797
-Synthesis Optimization Complete : Time (s): cpu = 00:02:31 ; elapsed = 00:02:35 . Memory (MB): peak = 2033.258 ; gain = 1803.688
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:55 ; elapsed = 00:04:10 . Memory (MB): peak = 1673.676 ; gain = 1149.535
+Synthesis Optimization Complete : Time (s): cpu = 00:04:10 ; elapsed = 00:04:17 . Memory (MB): peak = 1673.676 ; gain = 1429.973
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 2167 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 2164 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -1021,10 +1245,1048 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-227 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+221 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:34 ; elapsed = 00:02:39 . Memory (MB): peak = 2033.258 ; gain = 1807.371
-INFO: [Common 17-1381] The checkpoint 'C:/Users/b0968/Downloads/overcooked/overcooked.runs/synth_1/top.dcp' has been generated.
+synth_design: Time (s): cpu = 00:04:13 ; elapsed = 00:04:22 . Memory (MB): peak = 1673.676 ; gain = 1442.977
+INFO: [Common 17-1381] The checkpoint 'C:/Users/user/OneDrive/GitHub/overcooked/overcooked.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2033.258 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sat May 23 20:27:14 2026...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.097 . Memory (MB): peak = 1673.676 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 27 23:35:28 2026...
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18080 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 374.438 ; gain = 131.078
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
+INFO: [Synth 8-638] synthesizing module 'vga_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
+	Parameter H_VISIBLE bound to: 640 - type: integer 
+	Parameter H_FRONT bound to: 16 - type: integer 
+	Parameter H_SYNC bound to: 96 - type: integer 
+	Parameter H_BACK bound to: 48 - type: integer 
+	Parameter H_TOTAL bound to: 800 - type: integer 
+	Parameter V_VISIBLE bound to: 480 - type: integer 
+	Parameter V_FRONT bound to: 10 - type: integer 
+	Parameter V_SYNC bound to: 2 - type: integer 
+	Parameter V_BACK bound to: 33 - type: integer 
+	Parameter V_TOTAL bound to: 525 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'vga_controller' (1#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv:6]
+INFO: [Synth 8-638] synthesizing module 'ps2_keyboard' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
+WARNING: [Synth 8-6014] Unused sequential element got_e0_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:83]
+INFO: [Synth 8-256] done synthesizing module 'ps2_keyboard' (2#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:5]
+INFO: [Synth 8-638] synthesizing module 'key_state' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
+	Parameter KEY_W bound to: 8'b00011101 
+	Parameter KEY_A bound to: 8'b00011100 
+	Parameter KEY_S bound to: 8'b00011011 
+	Parameter KEY_D bound to: 8'b00100011 
+	Parameter KEY_F bound to: 8'b00101011 
+	Parameter KEY_UP bound to: 8'b01110101 
+	Parameter KEY_DOWN bound to: 8'b01110010 
+	Parameter KEY_LEFT bound to: 8'b01101011 
+	Parameter KEY_RIGHT bound to: 8'b01110100 
+	Parameter KEY_ENTER bound to: 8'b01011010 
+INFO: [Synth 8-256] done synthesizing module 'key_state' (3#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv:8]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:94]
+INFO: [Synth 8-638] synthesizing module 'game_timer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+	Parameter GAME_SECONDS bound to: 180 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'game_timer' (4#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv:5]
+INFO: [Synth 8-638] synthesizing module 'player_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
+	Parameter MOVE_DELAY bound to: 27'b000111001001110000111000000 
+WARNING: [Synth 8-5788] Register tile_x_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:83]
+WARNING: [Synth 8-5788] Register tile_y_reg in module player_controller is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:84]
+INFO: [Synth 8-256] done synthesizing module 'player_controller' (5#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:6]
+INFO: [Synth 8-638] synthesizing module 'station_controller' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:11]
+	Parameter ITEM_NONE bound to: 5'b00000 
+	Parameter ITEM_BEEF_RAW bound to: 5'b00001 
+	Parameter ITEM_LETTUCE_RAW bound to: 5'b00010 
+	Parameter ITEM_BREAD bound to: 5'b00011 
+	Parameter ITEM_NOODLE_RAW bound to: 5'b00100 
+	Parameter ITEM_EGG_RAW bound to: 5'b00101 
+	Parameter ITEM_RICE_RAW bound to: 5'b00110 
+	Parameter ITEM_PORK_RAW bound to: 5'b00111 
+	Parameter ITEM_BEEF_COOKED bound to: 5'b01000 
+	Parameter ITEM_LETTUCE_CHOPPED bound to: 5'b01001 
+	Parameter ITEM_NOODLE_COOKED bound to: 5'b01010 
+	Parameter ITEM_EGG_COOKED bound to: 5'b01011 
+	Parameter ITEM_RICE_COOKED bound to: 5'b01100 
+	Parameter ITEM_PORK_COOKED bound to: 5'b01101 
+	Parameter ITEM_DISH_BURGER bound to: 5'b01110 
+	Parameter ITEM_DISH_NOODLE bound to: 5'b01111 
+	Parameter ITEM_DISH_RICE_BOWL bound to: 5'b10000 
+	Parameter ITEM_BEEF_CHOPPED bound to: 5'b10001 
+	Parameter ITEM_PORK_CHOPPED bound to: 5'b10010 
+	Parameter ITEM_BURNT bound to: 5'b10011 
+	Parameter ITEM_BEEF_BURNT bound to: 5'b10100 
+	Parameter ITEM_PORK_BURNT bound to: 5'b10101 
+	Parameter ITEM_NOODLE_BURNT bound to: 5'b10110 
+	Parameter ITEM_EGG_BURNT bound to: 5'b10111 
+	Parameter ITEM_PLATE bound to: 5'b11000 
+	Parameter DISH_NONE bound to: 2'b00 
+	Parameter DISH_BURGER bound to: 2'b01 
+	Parameter DISH_NOODLE bound to: 2'b10 
+	Parameter DISH_RICE_BOWL bound to: 2'b11 
+	Parameter SLOT_NONE bound to: 2'b11 
+	Parameter BURN_AFTER_SECONDS bound to: 4'b1010 
+	Parameter BELT_STEP_DELAY bound to: 22'b1001100010010110100000 
+WARNING: [Synth 8-6014] Unused sequential element matched_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:407]
+WARNING: [Synth 8-6014] Unused sequential element best_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:408]
+WARNING: [Synth 8-6014] Unused sequential element best_slot_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:409]
+WARNING: [Synth 8-6014] Unused sequential element output_filled_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:446]
+WARNING: [Synth 8-6014] Unused sequential element made_dish_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:494]
+WARNING: [Synth 8-6014] Unused sequential element took_a_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:495]
+WARNING: [Synth 8-6014] Unused sequential element took_b_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:496]
+WARNING: [Synth 8-6014] Unused sequential element took_c_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:497]
+WARNING: [Synth 8-6014] Unused sequential element took_d_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:498]
+WARNING: [Synth 8-6014] Unused sequential element acted_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:571]
+WARNING: [Synth 8-6014] Unused sequential element held_dish_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:578]
+WARNING: [Synth 8-6014] Unused sequential element placed_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:592]
+WARNING: [Synth 8-6014] Unused sequential element near_item_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:626]
+INFO: [Synth 8-256] done synthesizing module 'station_controller' (6#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:11]
+INFO: [Synth 8-638] synthesizing module 'order_manager' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
+	Parameter SPAWN_INTERVAL bound to: 4'b1000 
+INFO: [Synth 8-256] done synthesizing module 'order_manager' (7#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:6]
+INFO: [Synth 8-638] synthesizing module 'score_manager' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
+	Parameter SCORE_SERVE bound to: 8'b00001010 
+INFO: [Synth 8-256] done synthesizing module 'score_manager' (8#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv:4]
+INFO: [Synth 8-638] synthesizing module 'seven_seg' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'seven_seg' (9#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:5]
+INFO: [Synth 8-638] synthesizing module 'buzzer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
+INFO: [Synth 8-256] done synthesizing module 'buzzer' (10#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv:10]
+INFO: [Synth 8-638] synthesizing module 'clk_divider' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/clk_divider.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_divider' (11#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/clk_divider.sv:5]
+INFO: [Synth 8-638] synthesizing module 'renderer' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
+	Parameter ITEM_NONE bound to: 5'b00000 
+	Parameter ITEM_BEEF_RAW bound to: 5'b00001 
+	Parameter ITEM_LETTUCE_RAW bound to: 5'b00010 
+	Parameter ITEM_BREAD bound to: 5'b00011 
+	Parameter ITEM_NOODLE_RAW bound to: 5'b00100 
+	Parameter ITEM_EGG_RAW bound to: 5'b00101 
+	Parameter ITEM_RICE_RAW bound to: 5'b00110 
+	Parameter ITEM_PORK_RAW bound to: 5'b00111 
+	Parameter ITEM_BEEF_COOKED bound to: 5'b01000 
+	Parameter ITEM_LETTUCE_CHOPPED bound to: 5'b01001 
+	Parameter ITEM_NOODLE_COOKED bound to: 5'b01010 
+	Parameter ITEM_EGG_COOKED bound to: 5'b01011 
+	Parameter ITEM_RICE_COOKED bound to: 5'b01100 
+	Parameter ITEM_PORK_COOKED bound to: 5'b01101 
+	Parameter ITEM_DISH_BURGER bound to: 5'b01110 
+	Parameter ITEM_DISH_NOODLE bound to: 5'b01111 
+	Parameter ITEM_DISH_RICE_BOWL bound to: 5'b10000 
+	Parameter ITEM_BEEF_CHOPPED bound to: 5'b10001 
+	Parameter ITEM_PORK_CHOPPED bound to: 5'b10010 
+	Parameter ITEM_BURNT bound to: 5'b10011 
+	Parameter ITEM_BEEF_BURNT bound to: 5'b10100 
+	Parameter ITEM_PORK_BURNT bound to: 5'b10101 
+	Parameter ITEM_NOODLE_BURNT bound to: 5'b10110 
+	Parameter ITEM_EGG_BURNT bound to: 5'b10111 
+	Parameter DISH_NONE bound to: 2'b00 
+	Parameter DISH_BURGER bound to: 2'b01 
+	Parameter DISH_NOODLE bound to: 2'b10 
+	Parameter DISH_RICE_BOWL bound to: 2'b11 
+	Parameter T_FLOOR bound to: 4'b0000 
+	Parameter T_WALL bound to: 4'b0001 
+	Parameter T_SRC_BEEF bound to: 4'b0010 
+	Parameter T_SRC_LETTUCE bound to: 4'b0011 
+	Parameter T_SRC_BREAD bound to: 4'b0100 
+	Parameter T_SRC_NOODLE bound to: 4'b0101 
+	Parameter T_SRC_EGG bound to: 4'b0110 
+	Parameter T_SRC_RICE bound to: 4'b0111 
+	Parameter T_SRC_PORK bound to: 4'b1000 
+	Parameter T_CHOP bound to: 4'b1001 
+	Parameter T_COOK bound to: 4'b1010 
+	Parameter T_ASM_IN bound to: 4'b1011 
+	Parameter T_ASM_STORE bound to: 4'b1100 
+	Parameter T_ASM_OUT bound to: 4'b1101 
+	Parameter T_TRASH bound to: 4'b1110 
+	Parameter T_ORDER bound to: 4'b1111 
+	Parameter SPRITE_TRANSPARENT bound to: 12'b111100001111 
+	Parameter FOOD_SPR_NONE bound to: 5'b00000 
+	Parameter FOOD_SPR_COW bound to: 5'b00001 
+	Parameter FOOD_SPR_BROCCOLI bound to: 5'b00010 
+	Parameter FOOD_SPR_BREAD bound to: 5'b00011 
+	Parameter FOOD_SPR_BEEF bound to: 5'b00100 
+	Parameter FOOD_SPR_PATTY bound to: 5'b00101 
+	Parameter FOOD_SPR_HAMBURGER bound to: 5'b00110 
+	Parameter FOOD_SPR_NOODLE bound to: 5'b00111 
+	Parameter FOOD_SPR_EGG bound to: 5'b01000 
+	Parameter FOOD_SPR_COOKED_NOODLE bound to: 5'b01001 
+	Parameter FOOD_SPR_FRIED_EGG bound to: 5'b01010 
+	Parameter FOOD_SPR_NOODLE_EGG_BOWL bound to: 5'b01011 
+	Parameter FOOD_SPR_RICE_BOWL bound to: 5'b01100 
+	Parameter FOOD_SPR_PIG bound to: 5'b01101 
+	Parameter FOOD_SPR_PORK_BLOCK bound to: 5'b01110 
+	Parameter FOOD_SPR_PORK_CHOP bound to: 5'b01111 
+	Parameter FOOD_SPR_PORK_BOWL bound to: 5'b10000 
+	Parameter FOOD_SPR_SMOKE_FIRE bound to: 5'b10001 
+INFO: [Synth 8-226] default block is never used [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:170]
+INFO: [Synth 8-638] synthesizing module 'player_sprite_rom' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:563]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:564]
+INFO: [Synth 8-256] done synthesizing module 'player_sprite_rom' (12#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:557]
+INFO: [Synth 8-638] synthesizing module 'food_sprite_rom' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8777]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8778]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8779]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8780]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8781]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8782]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8783]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8784]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8785]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8786]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8787]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8788]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8789]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8790]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8791]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8792]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "distributed" *) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8793]
+INFO: [Synth 8-256] done synthesizing module 'food_sprite_rom' (13#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:8771]
+INFO: [Synth 8-256] done synthesizing module 'renderer' (14#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv:5]
+INFO: [Synth 8-256] done synthesizing module 'top' (15#1) [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:4]
+WARNING: [Synth 8-3331] design renderer has unconnected port clk_25m
+WARNING: [Synth 8-3331] design renderer has unconnected port rst
+WARNING: [Synth 8-3331] design renderer has unconnected port game_active
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[7]
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[6]
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[5]
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[4]
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[3]
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[2]
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[1]
+WARNING: [Synth 8-3331] design renderer has unconnected port seconds[0]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[7]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[6]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[5]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[4]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[3]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[2]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[1]
+WARNING: [Synth 8-3331] design seven_seg has unconnected port score_disp[0]
+WARNING: [Synth 8-3331] design order_manager has unconnected port difficulty[1]
+WARNING: [Synth 8-3331] design order_manager has unconnected port difficulty[0]
+WARNING: [Synth 8-3331] design player_controller has unconnected port tick_1hz
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 542.930 ; gain = 299.570
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 542.930 ; gain = 299.570
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
+Finished Parsing XDC File [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 826.121 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 826.121 ; gain = 582.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 826.121 ; gain = 582.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 826.121 ; gain = 582.762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "bit_cnt" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "receiving" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "got_f0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element bit_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:42]
+INFO: [Synth 8-5546] ROM "p1_up" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_down" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_left" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_right" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_interact" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_up" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_down" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_left" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_right" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_interact" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tick_1hz" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:85]
+INFO: [Synth 8-4471] merging register 'snd_serve_reg' into 'serve_event_reg' [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:393]
+WARNING: [Synth 8-6014] Unused sequential element snd_serve_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv:393]
+INFO: [Synth 8-5544] ROM "belt_active" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "belt_segment" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "item_to_dish" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "item_to_dish0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_beef" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_lettuce" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_bread" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_plate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_noodle" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_egg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "has_pork" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cook_result" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "burn_result" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cook_result0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "burn_result0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cook_result1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "burn_result1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "made_dish" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "placed" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "placed" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "belt_active" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "belt_segment" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "item_to_dish" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "item_to_dish0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cook_result" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "burn_result" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cook_result0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "burn_result0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cook_result1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "burn_result1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "made_dish" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "placed" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "placed" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "best_slot" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_to_item" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_to_item0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_to_item1" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_to_item2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_to_item3" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_to_item4" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:53]
+WARNING: [Synth 8-6014] Unused sequential element spawn_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:64]
+INFO: [Synth 8-5544] ROM "rand_dish" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element refresh_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:19]
+INFO: [Synth 8-802] inferred FSM for state register 'effect_reg' in module 'buzzer'
+INFO: [Synth 8-5546] ROM "ms_tick" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "note_duration" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_duration" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_duration" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_duration" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_half_period" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_half_period" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_half_period" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_half_period" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "note_count" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "effect" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "sprite0". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "sprite1". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "cow". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "broccoli". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "bread". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "beef". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "patty". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "hamburger". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "noodle". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "egg". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "cooked_noodle". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "fried_egg". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "noodle_egg_bowl". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "rice_bowl". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "pig". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "pork_block". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "pork_chop". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "pork_bowl". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "smoke_fire". This will be implemented in logic
+INFO: [Synth 8-5544] ROM "pixel_color0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_sprite_for_source" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_color0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_sprite_for_source" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "pixel_color" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ui_color" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tile_color" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tilemap" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_overlay_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_overlay_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_overlay_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_overlay_sel" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "seg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_sprite_for_dish" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "food_sprite_for_dish0" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_color2" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "dish_color9" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "difficulty" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element led_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:264]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                           000001 |                              000
+                 iSTATE1 |                           000010 |                              011
+                 iSTATE2 |                           000100 |                              001
+                 iSTATE3 |                           001000 |                              010
+                 iSTATE4 |                           010000 |                              100
+*
+                 iSTATE0 |                           100000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'effect_reg' using encoding 'one-hot' in module 'buzzer'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 826.121 ; gain = 582.762
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |food_sprite_rom |           2|     26152|
+|2     |renderer__GC0   |           1|      5409|
+|3     |top__GC0        |           1|     12345|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input     22 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 2     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 48    
+	   2 Input      5 Bit       Adders := 35    
+	   2 Input      4 Bit       Adders := 30    
+	   2 Input      3 Bit       Adders := 5     
+	   3 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 2     
+	   3 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               27 Bit    Registers := 1     
+	               22 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                8 Bit    Registers := 5     
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 25    
+	                4 Bit    Registers := 10    
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 15    
+	                1 Bit    Registers := 43    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input     22 Bit        Muxes := 5     
+	   2 Input     18 Bit        Muxes := 2     
+	   6 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 6     
+	  18 Input     12 Bit        Muxes := 2     
+	  17 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 11    
+	   6 Input     12 Bit        Muxes := 1     
+	   5 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 2     
+	   6 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 13    
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      6 Bit        Muxes := 49    
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 232   
+	   3 Input      5 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 12    
+	   5 Input      5 Bit        Muxes := 4     
+	   9 Input      5 Bit        Muxes := 3     
+	   6 Input      5 Bit        Muxes := 3     
+	  13 Input      4 Bit        Muxes := 9     
+	  20 Input      4 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 57    
+	   4 Input      4 Bit        Muxes := 3     
+	  13 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 15    
+	   2 Input      2 Bit        Muxes := 87    
+	   4 Input      2 Bit        Muxes := 7     
+	   9 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 747   
+	  11 Input      1 Bit        Muxes := 17    
+	   5 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 8     
+	  10 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 1     
+Module food_sprite_rom 
+Detailed RTL Component Info : 
++---Muxes : 
+	  18 Input     12 Bit        Muxes := 1     
+Module renderer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 5     
+	   2 Input      4 Bit       Adders := 2     
++---Muxes : 
+	  17 Input     12 Bit        Muxes := 1     
+	   2 Input     12 Bit        Muxes := 11    
+	   6 Input     12 Bit        Muxes := 1     
+	   5 Input     12 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 10    
+	   3 Input      5 Bit        Muxes := 2     
+	   4 Input      5 Bit        Muxes := 1     
+	   5 Input      5 Bit        Muxes := 1     
+	   9 Input      5 Bit        Muxes := 1     
+	  13 Input      4 Bit        Muxes := 9     
+	  20 Input      4 Bit        Muxes := 1     
+	  15 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	  13 Input      3 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	  13 Input      1 Bit        Muxes := 2     
+Module vga_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 2     
+Module ps2_keyboard 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 8     
+Module key_state 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 10    
++---Muxes : 
+	  11 Input      1 Bit        Muxes := 10    
+	   2 Input      1 Bit        Muxes := 20    
+Module game_timer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module player_controller__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module player_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 2     
+Module station_controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     22 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 48    
+	   2 Input      5 Bit       Adders := 25    
+	   2 Input      4 Bit       Adders := 24    
+	   2 Input      3 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               22 Bit    Registers := 1     
+	                5 Bit    Registers := 20    
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 10    
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     22 Bit        Muxes := 5     
+	   2 Input      6 Bit        Muxes := 48    
+	   2 Input      5 Bit        Muxes := 193   
+	   4 Input      5 Bit        Muxes := 10    
+	   5 Input      5 Bit        Muxes := 3     
+	   6 Input      5 Bit        Muxes := 3     
+	   9 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 51    
+	   2 Input      3 Bit        Muxes := 12    
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 61    
+	   9 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 658   
+	   5 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 7     
+	   6 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+	  10 Input      1 Bit        Muxes := 1     
+Module order_manager 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 1     
+	   3 Input      3 Bit       Adders := 1     
+	   3 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                7 Bit    Registers := 1     
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 23    
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 15    
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 40    
+	   4 Input      1 Bit        Muxes := 2     
+Module score_manager 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module seven_seg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module buzzer 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     18 Bit        Muxes := 2     
+	   6 Input     18 Bit        Muxes := 1     
+	   2 Input     17 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 5     
+	   2 Input      9 Bit        Muxes := 2     
+	   6 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      7 Bit        Muxes := 2     
+	   6 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   6 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+Module clk_divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5542] Attribute ram_style/rom_style = distributed specified for ROM  "p_0_out". This will be implemented in logic
+INFO: [Synth 8-5544] ROM "pixel_color0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "got_f0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element bit_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv:42]
+INFO: [Synth 8-5546] ROM "p1_up" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_down" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_left" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_right" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p1_interact" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_up" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_down" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_left" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_right" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p2_interact" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "tick_1hz" won't be mapped to RAM because address size (27) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:85]
+WARNING: [Synth 8-6014] Unused sequential element move_timer_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv:85]
+WARNING: [Synth 8-6014] Unused sequential element spawn_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv:64]
+WARNING: [Synth 8-6014] Unused sequential element refresh_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv:19]
+INFO: [Synth 8-5546] ROM "ms_tick" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element led_cnt_reg was removed.  [C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv:264]
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[4]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[3]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[2]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[1]) is unused and will be removed from module station_controller.
+WARNING: [Synth 8-3332] Sequential element (belt_item_reg[0]) is unused and will be removed from module station_controller.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_1/i_24/\u_orders/spawn_cnt_reg[3] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:35 ; elapsed = 00:03:41 . Memory (MB): peak = 1527.996 ; gain = 1284.637
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------+-----------------------+---------------+----------------+
+|Module Name       | RTL Object            | Depth x Width | Implemented As | 
++------------------+-----------------------+---------------+----------------+
+|player_sprite_rom | p_0_out               | 4096x12       | LUT            | 
+|player_sprite_rom | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|renderer          | item_color1           | 32x12         | LUT            | 
+|renderer          | item_color0           | 32x12         | LUT            | 
+|renderer          | food_sprite_for_item  | 32x5          | LUT            | 
+|renderer          | item_color            | 32x12         | LUT            | 
+|renderer          | food_sprite_for_item0 | 32x5          | LUT            | 
+|renderer          | food_sprite_for_item1 | 32x5          | LUT            | 
+|renderer          | food_sprite_for_item2 | 32x5          | LUT            | 
+|renderer          | food_sprite_for_item3 | 32x5          | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|food_sprite_rom   | p_0_out               | 4096x12       | LUT            | 
+|player_sprite_rom | p_0_out               | 4096x12       | LUT            | 
+|player_sprite_rom | p_0_out               | 4096x12       | LUT            | 
+|top               | food_sprite_for_item  | 32x5          | LUT            | 
+|top               | food_sprite_for_item0 | 32x5          | LUT            | 
+|top               | food_sprite_for_item1 | 32x5          | LUT            | 
+|top               | food_sprite_for_item2 | 32x5          | LUT            | 
+|top               | food_sprite_for_item3 | 32x5          | LUT            | 
+|top               | item_color1           | 32x12         | LUT            | 
+|top               | item_color0           | 32x12         | LUT            | 
+|top               | item_color            | 32x12         | LUT            | 
++------------------+-----------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |food_sprite_rom    |           1|      8524|
+|2     |renderer__GC0      |           1|      2864|
+|3     |top__GC0           |           1|      5015|
+|4     |food_sprite_rom__1 |           1|      1577|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:45 ; elapsed = 00:03:51 . Memory (MB): peak = 1620.871 ; gain = 1377.512
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:46 ; elapsed = 00:03:52 . Memory (MB): peak = 1647.992 ; gain = 1404.633
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |food_sprite_rom    |           1|      8524|
+|2     |renderer__GC0      |           1|      2862|
+|3     |top__GC0           |           1|      5021|
+|4     |food_sprite_rom__1 |           1|      1577|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:59 ; elapsed = 00:04:05 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:04:00 ; elapsed = 00:04:07 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:01 ; elapsed = 00:04:07 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:02 ; elapsed = 00:04:08 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:02 ; elapsed = 00:04:08 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:02 ; elapsed = 00:04:09 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:02 ; elapsed = 00:04:09 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    79|
+|3     |LUT1   |    17|
+|4     |LUT2   |   268|
+|5     |LUT3   |   232|
+|6     |LUT4   |   475|
+|7     |LUT5   |  4792|
+|8     |LUT6   |  2035|
+|9     |MUXF7  |  1649|
+|10    |MUXF8  |   428|
+|11    |FDCE   |   499|
+|12    |FDPE   |    23|
+|13    |IBUF   |     8|
+|14    |OBUF   |    42|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------------+--------------------+------+
+|      |Instance           |Module              |Cells |
++------+-------------------+--------------------+------+
+|1     |top                |                    | 10548|
+|2     |  u_7seg           |seven_seg           |    30|
+|3     |  u_buzzer         |buzzer              |   331|
+|4     |  u_keys           |key_state           |    15|
+|5     |  u_orders         |order_manager       |   119|
+|6     |  u_p1             |player_controller   |   205|
+|7     |  u_p2             |player_controller_0 |   221|
+|8     |  u_ps2            |ps2_keyboard        |    88|
+|9     |  u_render         |renderer            |   457|
+|10    |    u_food_overlay |food_sprite_rom     |     5|
+|11    |    u_food_sprites |food_sprite_rom_1   |   452|
+|12    |  u_score          |score_manager       |    77|
+|13    |  u_stations       |station_controller  |   953|
+|14    |  u_timer          |game_timer          |   129|
+|15    |  u_vga            |vga_controller      |  7834|
++------+-------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:02 ; elapsed = 00:04:09 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:03:46 ; elapsed = 00:04:01 . Memory (MB): peak = 1674.805 ; gain = 1148.254
+Synthesis Optimization Complete : Time (s): cpu = 00:04:02 ; elapsed = 00:04:09 . Memory (MB): peak = 1674.805 ; gain = 1431.445
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2164 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+221 Infos, 55 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:04:06 ; elapsed = 00:04:14 . Memory (MB): peak = 1674.805 ; gain = 1444.410
+INFO: [Common 17-1381] The checkpoint 'C:/Users/user/OneDrive/GitHub/overcooked/overcooked.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 1674.805 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed May 27 23:55:10 2026...

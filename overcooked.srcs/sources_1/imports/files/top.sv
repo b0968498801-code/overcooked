@@ -185,11 +185,8 @@ module top (
     logic [1:0] served_dish;
     logic [1:0] served_slot;
     logic       serve_event;
-    logic       belt_active;
-    logic [4:0] belt_item;
-    logic [1:0] belt_segment;
-    logic [4:0] belt_progress;
     logic       snd_chop, snd_serve;
+    logic       clk_25m;
 
     station_controller u_stations (
         .clk(clk), .rst(rst),
@@ -207,10 +204,6 @@ module top (
         .assembly_items(assembly_items),
         .assembly_dishes(assembly_dishes),
         .served_dish(served_dish), .served_slot(served_slot), .serve_event(serve_event),
-        .belt_active(belt_active),
-        .belt_item(belt_item),
-        .belt_segment(belt_segment),
-        .belt_progress(belt_progress),
         .snd_chop(snd_chop), .snd_serve(snd_serve)
     );
 
@@ -302,10 +295,19 @@ module top (
     );
 
     // -------------------------
+    // Clock divider for VGA renderer
+    // -------------------------
+    clk_divider u_clkdiv (
+        .clk_100m(clk),
+        .rst(rst),
+        .clk_25m(clk_25m)
+    );
+
+    // -------------------------
     // Renderer
     // -------------------------
     renderer u_render (
-        .clk_25m(clk), .rst(rst),
+        .clk_25m(clk_25m), .rst(rst),
         .pixel_x(pixel_x), .pixel_y(pixel_y),
         .video_on(video_on),
         .game_active(game_active),
@@ -317,10 +319,6 @@ module top (
         .cook_display_items(cook_display_items),
         .assembly_items(assembly_items),
         .assembly_dishes(assembly_dishes),
-        .belt_active(belt_active),
-        .belt_item(belt_item),
-        .belt_segment(belt_segment),
-        .belt_progress(belt_progress),
         .order_dish(order_dish),
         .order_timer(order_timer_out),
         .score(score),

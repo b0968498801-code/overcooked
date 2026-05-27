@@ -22,25 +22,26 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/b0968/Downloads/overcooked/overcooked.cache/wt [current_project]
-set_property parent.project_path C:/Users/b0968/Downloads/overcooked/overcooked.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/user/OneDrive/GitHub/overcooked/overcooked.cache/wt [current_project]
+set_property parent.project_path C:/Users/user/OneDrive/GitHub/overcooked/overcooked.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/b0968/Downloads/overcooked/overcooked.cache/ip [current_project]
+set_property ip_output_repo c:/Users/user/OneDrive/GitHub/overcooked/overcooked.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv
-  C:/Users/b0968/Downloads/overcooked/overcooked.srcs/sources_1/imports/files/top.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/buzzer.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/clk_divider.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/game_timer.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/key_state.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/order_manager.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/player_controller.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/ps2_keyboard.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/renderer.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/score_manager.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/seven_seg.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/station_controller.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/vga_controller.sv
+  C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/sources_1/imports/files/top.sv
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -50,8 +51,8 @@ read_verilog -library xil_defaultlib -sv {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/b0968/Downloads/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc
-set_property used_in_implementation false [get_files C:/Users/b0968/Downloads/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
+read_xdc C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc
+set_property used_in_implementation false [get_files C:/Users/user/OneDrive/GitHub/overcooked/overcooked.srcs/constrs_1/imports/files/basys3.xdc]
 
 
 synth_design -top top -part xc7a35tcpg236-1
